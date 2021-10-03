@@ -25,7 +25,7 @@ clipboardEl.addEventListener('click', () => {
     textarea.select()
     document.execCommand('copy')
     textarea.remove()
-    alert('copied')
+    alert('Password copied to clipboard!')
 })
 
 generateEl.addEventListener('click', () => {
